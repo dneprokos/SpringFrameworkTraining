@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf5b9cd1-dda4-4699-b62e-2428984a2771" name="Default Changelist" comment="" />
+    <list default="true" id="cf5b9cd1-dda4-4699-b62e-2428984a2771" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springtestproject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/teltov/spring/_entry_point/lessons/SpringConfigurationByCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/teltov/spring/_entry_point/lessons/SpringConfigurationByCode.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1YhO0c6wkCKVmqko5zUkaUtFzHS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,9 +41,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomcat-8.5.51/bin/catalina.bat" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PersonalProjects\springtestproject\src\main\webapp\WEB-INF\views" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.teltov.spring.javabased_configuration" />
       <recent name="org.teltov.spring.annotations.lifecyclemethods" />
@@ -37,7 +60,7 @@
       <recent name="C:\PersonalProjects\springtestproject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.tomcat8">
     <configuration name="_MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.teltov.spring._entry_point._MainClass" />
       <module name="springtestproject" />
@@ -51,6 +74,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tomcat8" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="war:war" />
+                <option value="org.codehaus.mojo:wagon-maven-plugin:upload-single" />
+                <option value="-Dwagon.fromFile=C:\PersonalProjects\springtestproject\target\springtestproject.war" />
+                <option value="-Dwagon.url=file://C:\Projects\Tomcat9\webapps" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application._MainClass" />
+      <item itemvalue="Maven.tomcat8" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application._MainClass" />
@@ -71,6 +126,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583498826487">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583498826487" />
+    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583496256495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583496256495" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1583432617562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -87,21 +150,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583411297684" />
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1583492208408">
+    <state x="697" y="276" key="#com.intellij.tools.ToolEditorDialog" timestamp="1583496307777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583492208408" />
-    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1583492208408">
+    <state x="697" y="276" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583496307777" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1583496264628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583492208408" />
-    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1583492208408">
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583496264628" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1583506211842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583492208408" />
-    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1583492208408">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583506211842" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1583506211842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583492208408" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583506211842" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1583506211842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583506211842" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1583506211842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583506211842" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1583496310211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583496310211" />
   </component>
 </project>
